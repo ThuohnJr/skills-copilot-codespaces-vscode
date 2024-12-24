@@ -1,0 +1,72 @@
+/* Reset default settings and remove all borders */
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+/* Import Cinzel font */
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&display=swap');
+
+/* Style for the header */
+header {
+    font-family: 'Cinzel', serif;
+    font-size: 2em;
+    text-align: center;
+    padding: 20px;
+}
+
+header h1 {
+    margin: 0;
+}
+
+/* Page container */
+body {
+    font-family: Arial, sans-serif;
+}
+/* Navbar styling */
+nav {
+    display: flex;
+    justify-content: center;
+    background-color: #333;
+    padding: 10px;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    transition: background-color 0.3s;
+}
+
+nav a:hover {
+    background-color: gold;
+}
+
+/* Remove black background and add box shadow */
+nav {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    background-color: transparent;
+}
+nav a {
+    color: black;
+}
+/* Set all text color to black */
+body {
+    color: black;
+}
